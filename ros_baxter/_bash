@@ -1,0 +1,23 @@
+# original
+# gps
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/ros/indigo/lib/:/home/baxter/ros_ws3/src"
+export PYTHONPATH="/home/baxter/ros_ws3/devel/lib/python2.7/dist-packages:$PYTHONPATH:/opt/ros/indigo/lib/python2.7"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/baxter/ros_ws3/src:/home/baxter/ros_ws3/src/baxter_simulator:/home/baxter/ros_ws3/src/baxter_simulator/baxter_sim_hardware:/opt/ros/indigo/share:/opt/ros/indigo/lib:/home/baxter/ros_ws3/src"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/berkeley/gps-baxter:/home/baxter/berkeley/gps-baxter/src/gps_agent_pkg"
+export PATH="$PATH:/usr/include/lua5.1:/home/baxter/Box2D_v2.1.2/Box2D/Box2D"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/baxter/berkeley/gps-baxter/build/lib"
+export PYTHONPATH="$PYTHONPATH:/home/baxter/berkeley/gps-baxter/build/lib"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/baxter/berkeley/gps-baxter:/home/baxter/berkeley/gps-baxter/src/gps_agent_pkg:/home/baxter/berkeley/gps-baxter/src"
+export PYTHONPATH="$PYTHONPATH:/home/baxter/ros_ws3:/home/baxter/ros_ws3/src"
+
+# changed
+# gps
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/ros/indigo/lib/:/home/baxter/ros_ws3/src"
+export PYTHONPATH="/home/baxter/ros_ws3/devel/lib/python2.7/dist-packages:$PYTHONPATH:/opt/ros/indigo/lib/python2.7"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/baxter/ros_ws3/src:/home/baxter/ros_ws3/src/baxter_simulator:/home/baxter/ros_ws3/src/baxter_simulator/baxter_sim_hardware:/opt/ros/indigo/share:/opt/ros/indigo/lib:/home/baxter/ros_ws3/src"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/berkeley/gps-ksu:/home/baxter/berkeley/gps-ksu/src/gps_agent_pkg"
+export PATH="$PATH:/usr/include/lua5.1:/home/baxter/Box2D_v2.1.2/Box2D/Box2D"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/baxter/berkeley/gps-ksu/build/lib"
+export PYTHONPATH="$PYTHONPATH:/home/baxter/berkeley/gps-ksu/build/lib"
+export ROS_PACKAGE_PATH="$ROS_PACKAGE_PATH:/home/baxter/berkeley/gps-ksu:/home/baxter/berkeley/gps-ksu/src/gps_agent_pkg:/home/baxter/berkeley/gps-ksu/src"
+export PYTHONPATH="$PYTHONPATH:/home/baxter/ros_ws3:/home/baxter/ros_ws3/src"
